@@ -1,0 +1,224 @@
+/* Add your CSS to this file */
+body {
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+    display: grid;
+
+    
+}
+
+/*HEADER*/
+
+header{
+    background-color: white;
+    font-size: 18px;
+
+}
+
+h1{
+   grid-column: 1;
+   grid-row: 2/3; 
+}
+
+nav{
+    grid-column: 3;
+    grid-row: 2/3;
+    margin: 10px;
+
+     
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px; 
+    
+    
+}
+
+nav li a{
+    text-decoration: none; 
+    color: #6b7280;
+}
+
+nav a:hover{
+    color: #5A67D8;
+}
+
+ul li{
+    font-size: 15px;
+    margin-left: auto;
+    padding: 10px;  
+    
+}
+
+
+/*Overview Hero*/
+
+.overview-hero{
+    background-color: #E2E8F0;       
+    padding: 10px;
+}
+
+.overview-hero-image img {
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin: 10px;
+}
+.overview-hero-text{
+    grid-column: 2;
+
+}
+/*Learn About*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow:black;
+    border:1px solid #E2E8F0;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.card-body{
+    margin-left: 5px;
+}
+.learn-about .container h2{
+    color: #48BB78; 
+    font-size: 24px;
+}
+
+.card-body h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.card img{
+    height: 150px;
+    width: 250px;
+    padding-top: 10px;
+    
+    
+}
+
+
+/*Testing*/
+.testing{
+    background-color: #4A5568;
+    color: white;
+    margin-top: 20px;
+}
+
+.testing.container{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+
+    
+}
+
+.testing-description{
+    display: inline-block;
+    
+    
+}
+.cta .btn{
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.cta a{
+    text-decoration: none;
+}
+
+/*stories*/
+.stories{
+    margin-top: 80px;
+}
+
+.stories .container h2{
+    color: #5A67D8;
+}
+
+.stories .container img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+
+.article-body{
+    margin-left: 150px;
+
+}
+
+.article-body h3 {
+    font-size: 18px;
+}
+
+
+.article-body p a {
+    color: #5A67D8;
+}
+
+/*newsletter*/
+
+.newsletter{
+    background-color:#48BB78;
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.newsletter .container{
+    padding-bottom: 50px;
+}
+
+form{
+    display:flex;
+    padding-left: 270px;
+
+}
+.form-group{
+    height: 40px;
+    font-size:20px;
+    width: 200px;
+}
+
+button{
+    background-color: #5A67D8;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    color: white;
+    outline: none;
+}
+
+footer{
+    background-color:#4A5568;
+    color: white;
+}
