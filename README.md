@@ -1,1 +1,3 @@
-# info2180-project1
+# info2180 Project 1
+
+This is Project 1 for Akele Benjamin
